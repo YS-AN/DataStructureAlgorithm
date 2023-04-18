@@ -6,7 +6,6 @@ namespace DSA01_List
 	{
 		static void Main(string[] args)
 		{
-			/*
 			DynamicArray dynamicArray = new DynamicArray();
 			dynamicArray.UseList();
 
@@ -14,9 +13,9 @@ namespace DSA01_List
 
 			UtilizeList utilizeList = new UtilizeList();
 			utilizeList.DoUtilizeList();
-			//*/
 
-			//과제
+			Console.WriteLine("\n");
+
 			PracticeList practiceList = new PracticeList();
 			practiceList.Practice();
 		}
