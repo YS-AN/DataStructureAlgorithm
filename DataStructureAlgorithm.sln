@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA01_List", "DSA01_List\DSA01_List.csproj", "{AC8911E8-055E-4DCB-9724-8375E1A2005E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA01_List", "StudyDSA\DSA01_List\DSA01_List.csproj", "{AC8911E8-055E-4DCB-9724-8375E1A2005E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA02_LinkedList", "DSA02_LinkedList\DSA02_LinkedList.csproj", "{41338FA2-10DA-4283-812B-1C49050C37D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA02_LinkedList", "StudyDSA\DSA02_LinkedList\DSA02_LinkedList.csproj", "{41338FA2-10DA-4283-812B-1C49050C37D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
