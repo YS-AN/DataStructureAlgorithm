@@ -50,7 +50,7 @@ namespace DSA01_List
 	/// 실제 리스트 내부를 구현해보기
 	/// </summary>
 	/// <typeparam name="T"></typeparam>
-	internal class List<T>
+	public class List<T>
 	{
 		private const int DefaultCapacity = 4;
 
