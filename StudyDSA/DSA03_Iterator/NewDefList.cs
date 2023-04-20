@@ -51,12 +51,20 @@ namespace DSA03_Iterator
 				_current = default(T);
 			}
 
-			object IEnumerator.Current { get { return list[index]; } }
+			object IEnumerator.Current
+			{
+				get
+				{
+					if (index < 0 || index >= list.Count)
+						throw new InvalidOperationException();
+					return list[index];
+				}
+			}
 
-			/// <summary>
-			/// 반복이 끝났을 때 호출되는 함수
-			/// </summary>
-			public void Dispose() 
+	/// <summary>
+	/// 반복이 끝났을 때 호출되는 함수
+	/// </summary>
+	public void Dispose() 
 			{
                 Console.WriteLine("Dispose 호출");
             }
