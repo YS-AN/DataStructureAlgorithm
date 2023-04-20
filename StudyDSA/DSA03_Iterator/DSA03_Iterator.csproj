@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DSA01_List\DSA01_List.csproj" />
+    <ProjectReference Include="..\DSA02_LinkedList\DSA02_LinkedList.csproj" />
+  </ItemGroup>
+
 </Project>
