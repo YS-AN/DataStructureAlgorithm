@@ -1,10 +1,14 @@
-﻿namespace DSA03_Iterator
+﻿using DSA03_Iterator;
+
+namespace DSA03_Iterator
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
 			IteratorInList();
+
+			IteratorInLinkedList();
 
 		}
 
@@ -25,6 +29,17 @@
 			Console.WriteLine(iter.Current);
 			iter.Dispose();
 			//------------------------------------------------------------------------
+
+			foreach (int i in list)
+			{
+				Console.WriteLine(i);
+			}
+		}
+
+		static void IteratorInLinkedList()
+		{
+			DSA03_Iterator.LinkedList<int> list = new DSA03_Iterator.LinkedList<int>();
+			for (int i = 0; i < 5;) { list.AddLast(++i); }
 
 			foreach (int i in list)
 			{
