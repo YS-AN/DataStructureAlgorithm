@@ -15,6 +15,7 @@ namespace DSA03_Iterator
 	{
 		/// <summary>
 		/// IEnumerable<T>의 인터페이스 메소드
+		/// > 반복기를 꺼내주는 메소드임
 		/// </summary>
 		/// <returns></returns>
 		public IEnumerator<T> GetEnumerator()
@@ -23,7 +24,7 @@ namespace DSA03_Iterator
 		}
 
 		/// <summary>
-		/// IEnumerable의 인터페이스 메소드
+		/// IEnumerable의 인터페이스 메소드 
 		/// </summary>
 		/// <returns></returns>
 		IEnumerator IEnumerable.GetEnumerator()
@@ -38,10 +39,20 @@ namespace DSA03_Iterator
 		/// </summary>
 		public struct Enumerator : IEnumerator<T>
 		{
-			private int index; //현재 가리키고 있는 인덱스
-			private List<T> list; //현재 가지고 있는 리시트
+			/// <summary>
+			/// 현재 가리키고 있는 인덱스
+			/// </summary>
+			private int index;
 
-			private T _current; //이전 값을 담고 있을 변수
+			/// <summary>
+			/// 현재 가지고 있는 리시트
+			/// </summary>
+			private List<T> list;
+
+			/// <summary>
+			/// 현재 값을 담고 있는 변수
+			/// </summary>
+			private T _current;
 			public T Current { get { return _current; } }
 
 			public Enumerator(List<T> list)
@@ -61,10 +72,10 @@ namespace DSA03_Iterator
 				}
 			}
 
-	/// <summary>
-	/// 반복이 끝났을 때 호출되는 함수
-	/// </summary>
-	public void Dispose() 
+			/// <summary>
+			/// 반복이 끝났을 때 호출되는 함수
+			/// </summary>
+			public void Dispose() 
 			{
                 Console.WriteLine("Dispose 호출");
             }
