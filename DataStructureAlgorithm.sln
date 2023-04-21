@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA02_LinkedList", "StudyDS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA03_Iterator", "StudyDSA\DSA03_Iterator\DSA03_Iterator.csproj", "{14617005-7BBA-4EE1-A878-79F6CC186CE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA04_Stack", "StudyDSA\DSA04_Stack\DSA04_Stack.csproj", "{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{14617005-7BBA-4EE1-A878-79F6CC186CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14617005-7BBA-4EE1-A878-79F6CC186CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14617005-7BBA-4EE1-A878-79F6CC186CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
