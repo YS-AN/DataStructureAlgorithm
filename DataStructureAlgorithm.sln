@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA05_Queue", "StudyDSA\DSA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA16_GreedyAlgorithm", "StudyDSA\DSA16_GreedyAlgorithm\DSA16_GreedyAlgorithm.csproj", "{CFAC0352-D5ED-45E3-90EF-2E2AB9279861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA06_Heap", "DSA06_Heap\DSA06_Heap.csproj", "{3ACE0815-9BA0-4A13-AB76-59EE2548A780}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA06_Heap", "StudyDSA\DSA06_Heap\DSA06_Heap.csproj", "{3ACE0815-9BA0-4A13-AB76-59EE2548A780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
