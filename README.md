@@ -55,4 +55,13 @@
   &nbsp;&nbsp;&nbsp;&nbsp; :computer: [Queue Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/feature/DailyStudy/StudyDSA/DSA05_Queue)
 
 </details>
+<details>
+  <summary>Heap</summary>
+
+  &nbsp;&nbsp;&nbsp;&nbsp; :bulb: [About Heap](https://ysan.notion.site/06-Heap-b4ba847ff6af480fa17e251a7f17aba2)
+    
+  
+  &nbsp;&nbsp;&nbsp;&nbsp; :computer: [Heap Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/StudyDSA/DSA06_Heap)
+
+</details>
 
