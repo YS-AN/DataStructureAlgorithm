@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA02_LinkedList", "StudyDS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA03_Iterator", "StudyDSA\DSA03_Iterator\DSA03_Iterator.csproj", "{14617005-7BBA-4EE1-A878-79F6CC186CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA04_Stack", "StudyDSA\DSA04_Stack\DSA04_Stack.csproj", "{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA04_Stack", "StudyDSA\DSA04_Stack\DSA04_Stack.csproj", "{E85CC2A0-C451-44B0-8E01-AB8BA88AE12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA05_Queue", "StudyDSA\DSA05_Queue\DSA05_Queue.csproj", "{0A635EEB-759E-46C9-B1B8-5F6EEFA09209}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA05_Queue", "StudyDSA\DSA05_Queue\DSA05_Queue.csproj", "{0A635EEB-759E-46C9-B1B8-5F6EEFA09209}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA16_GreedyAlgorithm", "StudyDSA\DSA16_GreedyAlgorithm\DSA16_GreedyAlgorithm.csproj", "{CFAC0352-D5ED-45E3-90EF-2E2AB9279861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA06_Heap", "DSA06_Heap\DSA06_Heap.csproj", "{3ACE0815-9BA0-4A13-AB76-59EE2548A780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{0A635EEB-759E-46C9-B1B8-5F6EEFA09209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A635EEB-759E-46C9-B1B8-5F6EEFA09209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A635EEB-759E-46C9-B1B8-5F6EEFA09209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAC0352-D5ED-45E3-90EF-2E2AB9279861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAC0352-D5ED-45E3-90EF-2E2AB9279861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAC0352-D5ED-45E3-90EF-2E2AB9279861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAC0352-D5ED-45E3-90EF-2E2AB9279861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACE0815-9BA0-4A13-AB76-59EE2548A780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACE0815-9BA0-4A13-AB76-59EE2548A780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACE0815-9BA0-4A13-AB76-59EE2548A780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACE0815-9BA0-4A13-AB76-59EE2548A780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
