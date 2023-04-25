@@ -64,4 +64,12 @@
   &nbsp;&nbsp;&nbsp;&nbsp; :computer: [Heap Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/StudyDSA/DSA06_Heap)
 
 </details>
+<details>
+  <summary>BinarySearchTree</summary>
 
+  &nbsp;&nbsp;&nbsp;&nbsp; :bulb: [About BinarySearchTree](https://ysan.notion.site/07-Binary-Search-Tree-7f0262c9c2e84cb48a0bf8dc52140bda)
+    
+  
+  &nbsp;&nbsp;&nbsp;&nbsp; :computer: [BinarySearchTree Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/StudyDSA/DSA07_BinarySearchTree)
+
+</details>
