@@ -79,6 +79,6 @@
   &nbsp;&nbsp;&nbsp;&nbsp; :bulb: [About Hash Table](https://ysan.notion.site/08-HashTable-9b80c1f4324143548608da1b3ec04039)
     
   
-  &nbsp;&nbsp;&nbsp;&nbsp; :computer: [Hash Table Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/DSA08_HashTable)
+  &nbsp;&nbsp;&nbsp;&nbsp; :computer: [Hash Table Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/StudyDSA/DSA08_HashTable)
 
 </details>
