@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA06_Heap", "StudyDSA\DSA0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA07_BinarySearchTree", "StudyDSA\DSA07_BinarySearchTree\DSA07_BinarySearchTree.csproj", "{74972445-E066-4EED-A7A1-71397908CE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA08_HashTable", "StudyDSA\DSA08_HashTable\DSA08_HashTable.csproj", "{76542209-393A-4526-9AE1-74CC2343F709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA08_HashTable", "StudyDSA\DSA08_HashTable\DSA08_HashTable.csproj", "{76542209-393A-4526-9AE1-74CC2343F709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA09_AlgorithmDesignTechniques", "StudyDSA\DSA09_AlgorithmDesignTechniques\DSA09_AlgorithmDesignTechniques.csproj", "{79FD1309-83C5-4835-AABF-F8977BE21014}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA15_DynamicProgramming", "StudyDSA\DSA15_DynamicProgramming\DSA15_DynamicProgramming.csproj", "{7EAB4853-126E-44C0-BE59-08C4055CC78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA17_DivideAndConquer", "StudyDSA\DSA17_DivideAndConquer\DSA17_DivideAndConquer.csproj", "{A96DBB02-4FA6-47EF-87BC-89C2F518F59F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{76542209-393A-4526-9AE1-74CC2343F709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76542209-393A-4526-9AE1-74CC2343F709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76542209-393A-4526-9AE1-74CC2343F709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FD1309-83C5-4835-AABF-F8977BE21014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FD1309-83C5-4835-AABF-F8977BE21014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FD1309-83C5-4835-AABF-F8977BE21014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FD1309-83C5-4835-AABF-F8977BE21014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAB4853-126E-44C0-BE59-08C4055CC78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAB4853-126E-44C0-BE59-08C4055CC78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAB4853-126E-44C0-BE59-08C4055CC78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAB4853-126E-44C0-BE59-08C4055CC78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96DBB02-4FA6-47EF-87BC-89C2F518F59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96DBB02-4FA6-47EF-87BC-89C2F518F59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96DBB02-4FA6-47EF-87BC-89C2F518F59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96DBB02-4FA6-47EF-87BC-89C2F518F59F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
