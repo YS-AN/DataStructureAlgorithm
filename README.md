@@ -99,5 +99,15 @@
   &nbsp;&nbsp;&nbsp;&nbsp; :computer: [ShortestPath Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/StudyDSA/DSA12_ShortestPath)
 
 </details>
+<details>
+  <summary>ShortestPath</summary>
+      
+  &nbsp;&nbsp;&nbsp;&nbsp; :computer: [A_Star Code](https://github.com/YS-AN/DataStructureAlgorithm/tree/Develop/StudyDSA/DSA13_PathFinding)
+
+  &nbsp;&nbsp;&nbsp;&nbsp; :white_check_mark: [A_Star 재현](https://github.com/YS-AN/DataStructureAlgorithm/blob/Develop/StudyDSA/DSA13_PathFinding/AStar.cs)
+
+</details>
+
+
 
 
