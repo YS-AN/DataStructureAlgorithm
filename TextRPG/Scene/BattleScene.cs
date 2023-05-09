@@ -19,7 +19,7 @@ namespace TextRPG
 
 		public override void Render()
 		{
-			game.Map();
+			//game.Map();
 		}
 
 		public override void Update()
