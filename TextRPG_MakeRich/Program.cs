@@ -1,6 +1,8 @@
-﻿namespace TextRPG_MakeRich
+﻿using TextRPG_MakeRich.Map;
+
+namespace TextRPG_MakeRich
 {
-	internal class Program
+    internal class Program
 	{
 
 		/*
@@ -24,32 +26,10 @@
 		 */
 		static void Main(string[] args)
 		{
-			int mapWidth = 25;
-			int mapHeight = 25;
-
-			GameMap gameMap = new GameMap();
-
-			bool[,] map = gameMap.CreatedMap(mapWidth, mapHeight, 7);
-			print(map, mapWidth, mapHeight);
-
-			bool[,] map2 = gameMap.CreatedMap(mapWidth, mapHeight, 6);
-			print(map2, mapWidth, mapHeight);
-
-			bool[,] map3 = gameMap.CreatedMap(mapWidth, mapHeight, 5);
-			print(map3, mapWidth, mapHeight);
+			MakeRich mkRich = new MakeRich();
+			mkRich.PlayGame();
 		}
 
-		static void print(bool[,] map, int mapWidth, int mapHeight)
-		{
-			for (int y = 0; y < mapHeight; y++)
-			{
-				for (int x = 0; x < mapWidth; x++)
-				{
-					Console.Write(map[x, y] ? "　" : "■");
-				}
-				Console.WriteLine();
-			}
-            Console.WriteLine();
-        }
+		
 	}
 }
